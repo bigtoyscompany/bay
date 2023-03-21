@@ -19,7 +19,7 @@ header:
       slug: /blog
 
 footer:
-  show_powered_by: false
+  show_powered_by: true
   contact:
     - name: Email
       value: hi+duoduo@nai.ba
