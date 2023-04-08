@@ -1,5 +1,5 @@
 ---
-layout: owner
+layout: work
 title: 主人👸
 slug: /owner
 items:
