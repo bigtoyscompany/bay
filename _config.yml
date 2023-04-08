@@ -11,12 +11,12 @@ og_image: /assets/img/profile-pic.jpg
 
 header:
   pages:
-    - name: 家🏠
+    - name: 家 🏠
       slug: /
-    - name: 主人👸
+    - name: 主人 👸
       slug: /owner
-    - name: 手册📖
-      slug: /blog
+    - name: 手册 📖
+      slug: /manual
 
 footer:
   show_powered_by: true

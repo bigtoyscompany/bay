@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 手册📖
+title: 手册 📖
 slug: /manual
 ---
 

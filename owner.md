@@ -1,6 +1,6 @@
 ---
 layout: work
-title: 主人👸
+title: 主人 👸
 slug: /owner
 items:
   - title: 朵朵
