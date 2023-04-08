@@ -7,9 +7,9 @@
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-@import url('https://fonts.loli.net/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@100&display=swap');
 
-$base-font-family: 'ZCOOL KuaiLe', Charter, Georgia, Helvetica, Arial, sans-serif;
+$base-font-family: 'Noto Sans SC', Charter, Georgia, Helvetica, Arial, sans-serif;
 $base-font-size: 14px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;

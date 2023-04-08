@@ -1,8 +1,8 @@
 ---
-layout: blog
-title: Blog
-slug: /blog
+layout: manual
+title: 手册📖
+slug: /manual
 ---
 
-This is an example of a "Blog" page, displaying a list of posts.
+这里将会逐步补充房子的维护与使用手册～
 <br />

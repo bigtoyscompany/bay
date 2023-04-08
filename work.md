@@ -1,20 +1,20 @@
 ---
-layout: work
-title: Work
-slug: /work
+layout: owner
+title: 主人👸
+slug: /owner
 items:
-  - title: My Interest 1
+  - title: 朵朵
     image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: My Interest 2
+      src: /assets/img/owner/water.png
+      alt: 朵朵
+    description: 聪明能干的白衣天使～，家里的大小事都仰仗她。
+  - title: 鹏举
     image:
-      src: /assets/img/work/sand.png
+      src: /assets/img/owner/man.png
       alt: sand
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    description: 温柔可爱的程序员，家庭吉祥物～
 ---
 
-This is an example of a "Work" page, displaying your work, your interests, your projects.
+这里是家庭主理人列表～成员可能会有变动，最终解释权归 Xinqi.me 运营部所有。
 <br />
 <br />
