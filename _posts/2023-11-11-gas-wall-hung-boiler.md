@@ -11,7 +11,7 @@ blurb: "燃气壁挂炉使用说明"
 
 #### 基本使用
 
-![/assets/img/posts/IMG_1071.png](燃气壁挂炉)
+![燃气壁挂炉](/assets/img/posts/IMG_1071.png)
 
 使用前先开启中间冷水进水口和生活热水出水口，开启电源。
 
@@ -19,6 +19,6 @@ blurb: "燃气壁挂炉使用说明"
 
 #### 补水增压
 
-![/assets/img/posts/IMG_1074.png](补水阀门)
+![补水阀门](/assets/img/posts/IMG_1074.png)
 
 当右边水压表逼近红线时，需要手动补水将水压补到正常水平。
