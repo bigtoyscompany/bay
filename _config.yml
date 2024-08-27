@@ -4,8 +4,8 @@
 title: 朵朵和鹏举的家
 description: >- # this means to ignore newlines until "baseurl:"
   房屋使用说明书。
-baseurl: "/bay/" # the subpath of the site
-url: "https://bigtoyscompany.github.io/bay/" # the base hostname & protocol for the site
+baseurl: "/bay" # the subpath of the site
+url: "https://bigtoyscompany.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 #google_analytics: ""
 
