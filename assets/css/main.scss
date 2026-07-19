@@ -10,9 +10,6 @@
 );
 @use "mixins";
 @use "extends";
-
-@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC&display=swap');
-
 @use "base";
 @use "layout";
 @use "site";
@@ -20,3 +17,5 @@
 @use "blog";
 @use "post";
 @use "not_found";
+
+@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC&display=swap');
