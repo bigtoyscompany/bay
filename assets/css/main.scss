@@ -1,12 +1,16 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs Front Matter
 ---
 
 @charset "utf-8";
 
-// Our variables
-$base-url: "{{ site.baseurl }}";
+@use "variables" with (
+  $base-url: "{{ site.baseurl }}"
+);
+@use "mixins";
+@use "extends";
 
+<<<<<<< HEAD
 @import url('https://fonts.loli.net/css2?family=Noto+Sans+SC&display=swap');
 
 $base-font-family: 'Noto Sans SC', Charter, Georgia, Helvetica, Arial, sans-serif;
@@ -35,3 +39,12 @@ $on-laptop: 800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "site", "work", "blog", "post", "404";
+=======
+@use "base";
+@use "layout";
+@use "site";
+@use "work";
+@use "blog";
+@use "post";
+@use "not_found";
+>>>>>>> upstream/master
