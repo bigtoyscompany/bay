@@ -1,6 +1,3 @@
-@use "variables" as variables;
-@use "mixins" as mixins;
-
 .blog-post-list {
   .blog-post-date {
     width: 6em;
@@ -8,7 +5,7 @@
     display: block;
     float: left;
 
-    @include mixins.media-query(variables.$on-mobile) {
+    @include media-query($on-mobile) {
       display: block;
       float: none;
       color: #333;
