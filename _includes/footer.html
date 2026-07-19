@@ -39,7 +39,7 @@
                   src="{{ follow_icon_path }}"
                   alt="{{ follow.name | downcase }}"
                 />
-                <a href="{{ follow.link }}">
+                <a href="{{ follow.link }}" target="_blank" rel="noopener noreferrer">
                   {% if follow.value and follow.value != "" and follow.value != nil %}
                     {{ follow.value }}
                   {% else %}
