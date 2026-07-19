@@ -1,8 +1,5 @@
-@use "variables" as variables;
-@use "mixins" as mixins;
-
 .post-header {
-  margin-bottom: variables.$spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title {
@@ -10,9 +7,9 @@
   letter-spacing: -1px;
   line-height: 1.2;
 
-  font-family: variables.$base-font-family;
+  font-family: $base-font-family;
 
-  @include mixins.media-query(variables.$on-mobile) {
+  @include media-query($on-mobile) {
     font-size: 34px;
   }
 }
@@ -22,12 +19,12 @@
   letter-spacing: -1px;
   line-height: 1;
   color: #777;
-  font-family: variables.$base-font-family;
+  font-family: $base-font-family;
   font-style: oblique;
   position: relative;
   top: -0.3em;
 
-  @include mixins.media-query(variables.$on-mobile) {
+  @include media-query($on-mobile) {
     font-size: 24px;
   }
 }
@@ -38,12 +35,12 @@
 }
 
 .post-content {
-  margin-bottom: variables.$spacing-unit;
+  margin-bottom: $spacing-unit;
   width: 100%;
   h2 {
     font-size: 32px;
 
-    @include mixins.media-query(variables.$on-mobile) {
+    @include media-query($on-mobile) {
       font-size: 28px;
     }
   }
@@ -51,7 +48,7 @@
   h3 {
     font-size: 26px;
 
-    @include mixins.media-query(variables.$on-mobile) {
+    @include media-query($on-mobile) {
       font-size: 22px;
     }
   }
@@ -59,7 +56,7 @@
   h4 {
     font-size: 20px;
 
-    @include mixins.media-query(variables.$on-mobile) {
+    @include media-query($on-mobile) {
       font-size: 18px;
     }
   }
@@ -67,7 +64,6 @@
 
 .post-pic {
   border: #999 1px solid;
-  border-radius: 4px;
 }
 
 .magnify {
