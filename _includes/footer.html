@@ -68,11 +68,7 @@
                   alt="{{ follow.name | downcase }}"
                 />
                 <a href="{{ follow.link }}" target="_blank" rel="noopener noreferrer">
-<<<<<<< HEAD
-                  {% if follow.value and follow.value != "" and follow.value != nil %}
-=======
                   {%- if follow.value and follow.value != "" and follow.value != nil -%}
->>>>>>> upstream/master
                     {{ follow.value }}
                   {%- else -%}
                     {{ follow.name }}
@@ -88,11 +84,7 @@
       {% if site.footer.show_powered_by == true %}
         <div class="footer-col footer-col-3 powered-by">
           <p>
-<<<<<<< HEAD
             Powered by <a href="https://house.nai.ba">奶爸的家</a> | &copy; {{ 'now' | date: "%Y" }}
-=======
-            powered by <a href="https://github.com/eliottvincent/bay" target="_blank" rel="noopener noreferrer">Bay</a> | <span id="year"></span>
->>>>>>> upstream/master
           </p>
         </div>
       {% endif %}
